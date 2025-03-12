@@ -1,49 +1,74 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aromas de la Tacita - Chef Profesional</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Bienvenidos a Aromas de la Tacita</h1>
-        <p>Chef Profesional - Experiencia en Alta Cocina</p>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
-    <section id="about">
-        <h2>Sobre mí</h2>
-        <p>Soy un chef con pasión por la gastronomía y la innovación en la cocina.</p>
-    </section>
+header {
+    background-color: #2d5d9b;  /* Azul para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
-    <section id="services">
-        <h2>Mis Servicios</h2>
-        <ul>
-            <li>Clases de cocina</li>
-            <li>Eventos privados</li>
-            <li>Consultoría gastronómica</li>
-            <li>Creación de menús exclusivos</li>
-        </ul>
-    </section>
+header h1 {
+    font-size: 2.5em;
+}
 
-    <section id="images">
-        <h2>Conoce mi trabajo</h2>
-        <div class="image-gallery">
-            <img src="images/IMG_20220104_191158(1).jpg" alt="Imagen 1" style="width: 100%; max-width: 200px; height: auto;">
-            <img src="images/IMG-20221003-WA0053.jpg" alt="Imagen 2" style="width: 100%; max-width: 200px; height: auto;">
-            <img src="images/IMG_20220819_183822_732.jpg" alt="Imagen 3" style="width: 100%; max-width: 200px; height: auto;">
-        </div>
-    </section>
+header p {
+    font-size: 1.2em;
+}
 
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Email: <a href="mailto:jairozacalc2001@gmail.com">jairozacalc2001@gmail.com</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/aromasdelatacita" target="_blank">@aromasdelatacita</a></p>
-    </section>
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    <footer>
-        <p>&copy; 2025 Aromas de la Tacita - Todos los derechos reservados</p>
-    </footer>
-</body>
-</html>
+section h2 {
+    color: #2d5d9b;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d5d9b;
+    color: white;
+    margin-top: 40px;
+}
+
+a {
+    color: #2d5d9b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    margin: 10px;
+    border-radius: 8px;
+}
